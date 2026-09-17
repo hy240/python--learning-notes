@@ -58,5 +58,5 @@ c = float(input("your long"))
 if a + b == c and a + c == b and b + c == a:
     preimeter = (a + b + c) 
 s = preimeter / 2
-area = (s*(a-b) + s*(a-c) + s*(b-c))/2
+area = (s*(a-b) + s*(a-c) + s*(b-c))**0.5
 print(float(area))
