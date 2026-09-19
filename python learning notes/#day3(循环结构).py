@@ -34,3 +34,4 @@ print(tatal3)
 for x in range(0,10):
     for g in range(1,x+1):
         print(f"{x}*{g}:",x*g,end="/t")
+        print(f"{x}*{g}:",x*g,end="/t")
